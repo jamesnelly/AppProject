@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid>
-        <StackPanel Background="red" Height="150" VerticalAlignment="Top">
+        <StackPanel Background="#3498db" Height="150" VerticalAlignment="Top">
             <TextBlock FontFamily="Rockwell Extra Bold" FontSize="50" FontWeight="Bold" TextAlignment="Center" LineHeight="48" Margin="45">
                 <Run Text="Hurling Fixtures and Results"/>
             </TextBlock>
@@ -20,19 +20,26 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="20*"/>
             </Grid.RowDefinitions>
-            <StackPanel Grid.Column="0" Background="Yellow" VerticalAlignment="Center" Height="420" Margin="0,150">
-                <Button x:Name="U16_btn" Content="Under 16" HorizontalAlignment="Left" Height="90" Margin="100,47,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="U16_btn_Click"/>
-                <Button x:Name="Minor_btn" Content="Minor" HorizontalAlignment="Left" Height="90" Margin="100,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Minor_btn_Click"/>
-                <Button x:Name="U21_btn" Content="Under 21" HorizontalAlignment="Left" Height="90" Margin="100,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="U21_btn_Click"/>
+            <StackPanel Grid.Column="0" Background="White" VerticalAlignment="Center" Height="420" Margin="0,150">
+                <Button x:Name="U16_btn" Content="Under 16" HorizontalAlignment="Left" Height="90" Margin="100,47,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="U16_btn_Click" Background="#f1c40f" Foreground="black"/>
+                <Button x:Name="Minor_btn" Content="Minor" HorizontalAlignment="Left" Height="90" Margin="100,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Minor_btn_Click" Background="#f1c40f" Foreground="black"/>
+                <Button x:Name="U21_btn" Content="Under 21" HorizontalAlignment="Left" Height="90" Margin="100,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="U21_btn_Click" Background="#f1c40f" Foreground="black"/>
             </StackPanel>
-            <StackPanel Grid.Column="1" Background="Yellow" VerticalAlignment="Center" Height="420" Margin="0,150">
-                <Button x:Name="Junior_btn" Content="Junior" HorizontalAlignment="Left" Height="90" Margin="250,47,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Junior_btn_Click"/>
-                <Button x:Name="Inter_btn" Content="Intermediate" HorizontalAlignment="Left" Height="90" Margin="250,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Inter_btn_Click"/>
-                <Button x:Name="Senior_btn" Content="Senior" HorizontalAlignment="Left" Height="90" Margin="250,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Senior_btn_Click"/>
+            <StackPanel Grid.Column="1" Background="White" VerticalAlignment="Center" Height="420" Margin="0,150">
+                <Button x:Name="Junior_btn" Content="Junior" HorizontalAlignment="Left" Height="90" Margin="250,47,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Junior_btn_Click" Background="#f1c40f" Foreground="black"/>
+                <Button x:Name="Inter_btn" Content="Intermediate" HorizontalAlignment="Left" Height="90" Margin="250,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Inter_btn_Click" Background="#f1c40f" Foreground="black"/>
+                <Button x:Name="Senior_btn" Content="Senior" HorizontalAlignment="Left" Height="90" Margin="250,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Senior_btn_Click" Background="#f1c40f" Foreground="black"/>
             </StackPanel>
         </Grid>
-        <StackPanel Background="CadetBlue" VerticalAlignment="Bottom" Height="150" Margin="0,1">
-            <Button   x:Name="Home_btn" Content="HOME"  Height="96" Margin="480,20,0,0" Width="380" FontSize="36" FontFamily="Castellar" FontWeight="Bold"/>
+        <StackPanel Background="#3498db " VerticalAlignment="Bottom" Height="150" Margin="0,1">
+            <Button   x:Name="Home_btn" Content="HOME"  Height="96" Margin="480,20,0,0" Width="380" FontSize="36" FontFamily="Castellar" FontWeight="Bold">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFD1ACAB"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
         </StackPanel>
     </Grid>
 </Page>

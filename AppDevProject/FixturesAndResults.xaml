@@ -9,7 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <StackPanel Background="red" Height="150" VerticalAlignment="Top">
+        <StackPanel Background="#c0392b" Height="150" VerticalAlignment="Top">
             <TextBlock FontFamily="Rockwell Extra Bold" FontSize="50" FontWeight="Bold" TextAlignment="Center" LineHeight="48" Margin="45">
                 <Run Text="Fixtures and Results"/>
             </TextBlock>
@@ -25,15 +25,15 @@
                 <RowDefinition Height="20*"/>
 
             </Grid.RowDefinitions>
-            <StackPanel Grid.Column="0" Background="Yellow" VerticalAlignment="Center" Height="420" Margin="0,150">
+            <StackPanel Grid.Column="0" Background="white" VerticalAlignment="Center" Height="420" Margin="0,150">
                 <Button x:Name="Fixtures_btn" Content="FIXTURES" HorizontalAlignment="Center" Height="150" Margin="0,100,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Fixtures_btn_Click"/>
                </StackPanel>
 
-            <StackPanel Grid.Column="1" Background="Yellow" VerticalAlignment="Center" Height="420" Margin="0,150">
+            <StackPanel Grid.Column="1" Background="white" VerticalAlignment="Center" Height="420" Margin="0,150">
                 <Button x:Name="Result_btn" Content="RESULTS" HorizontalAlignment="Center" Height="150" Margin="0,100,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Result_btn_Click"/>
                </StackPanel>
         </Grid>
-        <StackPanel Background="CadetBlue" VerticalAlignment="Bottom" Height="150" Margin="0,1">
+        <StackPanel Background="#c0392b" VerticalAlignment="Bottom" Height="150" Margin="0,1">
             <Button x:Name="Home_btn" Content="HOME" HorizontalAlignment="Left" Height="96" Margin="480,20,0,0" Width="380" VerticalAlignment="Top" FontSize="36" FontFamily="Castellar" FontWeight="Bold" Click="Home_btn_Click"/>
         </StackPanel>
 

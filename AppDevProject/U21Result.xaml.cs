@@ -30,5 +30,31 @@ namespace AppDevProject
         {
             Frame.Navigate(typeof(MainPage));
         }
+
+        private void Team1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(TeamLayout));
+
+        }
+
+        private void Team2_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(TeamLayout));
+        }
+
+        private void Team3_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(TeamLayout));
+        }
+
+        private void Team4_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(TeamLayout));
+        }
+
+        private void Team5_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(TeamLayout));
+        }
     }
 }
