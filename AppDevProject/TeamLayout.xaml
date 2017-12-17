@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="AppDevProject.TeamLayout"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppDevProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Background="red" Height="150" VerticalAlignment="Top">
+            <TextBlock FontFamily="Rockwell Extra Bold" FontSize="50" FontWeight="Bold" TextAlignment="Center" LineHeight="48" Margin="45">
+                <Run Text="Ticket Purchase"/>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Background="AliceBlue" VerticalAlignment="Center" Height="420" Margin="0,150">
+           
+            <Image  Source="Assets/pitch70.jpg" Stretch="Fill" Width="1280" Height="436" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,0,0,0" />
+            <TextBlock Text="gggggg" />
+
+
+
+        </StackPanel>
+        <StackPanel Background="CadetBlue" VerticalAlignment="Bottom" Height="150" Margin="0,1">
+            <Button x:Name="Home_btn" Content="HOME" HorizontalAlignment="Left" Height="96" Margin="480,20,0,0" Width="380" VerticalAlignment="Top" FontSize="36" FontFamily="Castellar" FontWeight="Bold" Click="Home_btn_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Page>

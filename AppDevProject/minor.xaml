@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="AppDevProject.minor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppDevProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <StackPanel Background="red" Height="150" VerticalAlignment="Top">
+            <TextBlock FontFamily="Rockwell Extra Bold" FontSize="50" FontWeight="Bold" TextAlignment="Center" LineHeight="48" Margin="45">
+                <Run Text="Minor Fixtures"/>
+            </TextBlock>
+        </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Column="0" Background="AliceBlue" VerticalAlignment="Center" Height="420" Margin="0,150">
+                <TextBlock Text="" />
+                <TextBlock Text="" />
+                <TextBlock Text="Minor Championship " FontSize="35" FontWeight="Bold" HorizontalAlignment="Center" />
+                <TextBlock Text="" />
+                <TextBlock Text="                       Date             Time        Venue              Team 1                 Team 2                     REF" FontSize="22" FontWeight="Bold" FontFamily="Nirmala UI Semilight"/>
+                <TextBlock Text="" />
+                <TextBlock x:Name="Header" Text="                       10/3/2018          6:30           Portumna               Carnmore                 Micheal Cusacks           John O'Grady" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock Text="" />
+                <TextBlock x:Name="Header1" Text="                       10/3/2018          6:30           Gort                       Kinvara                     Gort                               Michael Burke" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock Text="" />
+                <TextBlock x:Name="Header2" Text="                       17/3/2018          3:00           Peterswell            Kilimor                      St Thomas                     Declan Smith" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock Text="" />
+                <TextBlock x:Name="Header3" Text="                       17/3/2018          4:00           Kinvara                 Loughrea                  Portumna                      Chris Lorcan" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock Text="" />
+                <TextBlock x:Name="Header4" Text="                       24/3/2018          5:00           Carnmore             Liam Mellows           Ardrahan                       Steven Duffy" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock Text="" />
+                <TextBlock x:Name="Header5" Text="                       24/3/2018          5:00           Maree                   Kiltormer                  Kilconieron                    Gerry Dolan" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+            </StackPanel>
+            <StackPanel Grid.Column="1" Background="deepskyblue" VerticalAlignment="Center" Height="420" Margin="0,150">
+                <TextBlock Text="" />
+                <TextBlock Text="" />
+                <TextBlock Text="Minor Teams " FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" />
+                <Button x:Name="Team1" Content="Gort" HorizontalAlignment="Left" Height="40" Margin="60,10,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold"  FontFamily="Castellar" FontWeight="Bold" Click="Team1_Click"/>
+                <Button x:Name="Team2" Content="Michael Cusacks" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold"  FontFamily="Castellar" FontWeight="Bold" Click="Team2_Click"/>
+                <Button x:Name="Team3" Content="Carnmore" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold" FontFamily="Castellar" FontWeight="Bold" Click="Team3_Click"/>
+                <Button x:Name="Team4" Content="ardrahan" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold" FontFamily="Castellar" FontWeight="Bold" Click="Team4_Click"/>
+                <Button x:Name="Team5" Content="kinvara" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold" FontFamily="Castellar" FontWeight="Bold" Click="Team5_Click"/>
+            </StackPanel>
+        </Grid>
+        <StackPanel Background="CadetBlue" VerticalAlignment="Bottom" Height="150" Margin="0,1">
+            <Button x:Name="Home_btn" Content="HOME" HorizontalAlignment="Left" Height="96" Margin="480,20,0,0" Width="380" VerticalAlignment="Top" FontSize="36" FontFamily="Castellar" FontWeight="Bold" Click="Home_btn_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
