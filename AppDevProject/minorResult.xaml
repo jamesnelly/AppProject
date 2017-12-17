@@ -28,17 +28,17 @@
                 <TextBlock Text="" />
                 <TextBlock Text="      Date          Time        Venue             Team 1               Score               Team 2                     REF" FontSize="22" FontWeight="Bold" FontFamily="Nirmala UI Semilight"/>
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header" Text="   12/2/2017        2:00            Gort                   Killimor            |1-20|   |2-12|           Kilbeacanty                  Steven Duffy" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header" Text="   12/4/2017        2:00            Gort                   Killimor            |1-20|   |2-12|           Kilbeacanty                  Steven Duffy" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header1" Text="   12/2/2017        2:00            Castlegar          Sarsfields          |3-10|   |3-12|          St Thomas                    Declan Smith" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header1" Text="   12/4/2017        2:00            Castlegar          Sarsfields          |3-10|   |3-12|          St Thomas                    Declan Smith" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header2" Text="   12/2/2017        4:30            Carnmore         Clarinbridge      |1-10|   | 2-2 |          Gort                               Michael Burke" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header2" Text="   20/4/2017        4:30            Carnmore         Clarinbridge      |1-10|   | 2-2 |          Gort                               Michael Burke" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header3" Text="   12/2/2017        4:30            Kilbeacanty      Carnmore          |0-20|   |3-12|          Mullagh                         Chris Lorcan" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header3" Text="   20/4/2017        4:30            Kilbeacanty      Carnmore          |0-20|   |3-12|          Mullagh                         Chris Lorcan" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header5" Text="   12/2/2017        7:00            Ardrahan          Killimordaly      |1-20|    |2-12|         Castlegar                       John O'Grady" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header5" Text="   29/4/2017        7:00            Ardrahan          Killimordaly      |1-20|    |2-12|         Castlegar                       John O'Grady" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header6" Text="   12/2/2017        7:00            Mullagh            Loughrea          | 1-8  |   | 4-7  |         Micheal Cusacks            Gerry Dolan" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header6" Text="   29/4/2017        7:00            Mullagh            Loughrea          | 1-8  |   | 4-7  |         Micheal Cusacks            Gerry Dolan" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
             </StackPanel>
             <StackPanel Grid.Column="1" Background="deepskyblue" VerticalAlignment="Center" Height="420" Margin="0,150">
                 <TextBlock Text="" />

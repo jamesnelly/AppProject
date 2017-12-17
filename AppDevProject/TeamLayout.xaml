@@ -5,20 +5,22 @@
     xmlns:local="using:AppDevProject"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" FontSize="24">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Background="red" Height="150" VerticalAlignment="Top">
             <TextBlock FontFamily="Rockwell Extra Bold" FontSize="50" FontWeight="Bold" TextAlignment="Center" LineHeight="48" Margin="45">
-                <Run Text="Ticket Purchase"/>
+                <Run Text="Team Line out"/>
             </TextBlock>
         </StackPanel>
-        <StackPanel Background="AliceBlue" VerticalAlignment="Center" Height="420" Margin="0,150">
-           
-            <Image  Source="Assets/pitch70.jpg" Stretch="Fill" Width="1280" Height="436" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,0,0,0" />
-            <TextBlock Text="gggggg" />
+        <StackPanel Height="420" Margin="0,150">
+            <StackPanel.Background>
 
-
+            <ImageBrush  ImageSource="Assets/pitch70.jpg" Stretch="Fill" Opacity="0.75" />
+            </StackPanel.Background>
+            <TextBlock Text=" Frank Castle                  Evan Kelly                                                                         Evan Hunt                                Roger Burke" FontSize="24" FontFamily="Sitka Banner" Width="1200"  Margin="110,15,0,0" HorizontalAlignment="Left" FontWeight="Bold"/>
+            <TextBlock Text="Jon Coen    Mikey Burke           Kevin O'Geady        John Morris             Dan Nevin           Mark Dunne                             Ben Murray" FontSize="24" FontFamily="Sitka Banner" Width="1250"  Margin="10,120,0,0" HorizontalAlignment="Left" FontWeight="Bold"/>
+            <TextBlock Text="Declan Neilan                Ryan Nally                                                                          Jack Matt                                  Conor Fall" FontSize="24" FontFamily="Sitka Banner" Width="1200"  Margin="110,115,0,0" HorizontalAlignment="Left" FontWeight="Bold"/>
 
         </StackPanel>
         <StackPanel Background="CadetBlue" VerticalAlignment="Bottom" Height="150" Margin="0,1">

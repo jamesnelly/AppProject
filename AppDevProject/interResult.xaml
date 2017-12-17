@@ -27,19 +27,19 @@
                 <TextBlock Text="" />
                 <TextBlock Text="Intermediate Championship " FontSize="35" FontWeight="Bold" HorizontalAlignment="Center" />
                 <TextBlock Text="" />
-                <TextBlock Text="             Date             Time        Venue          Team 1           Score            Team 2                REF" FontSize="22" FontWeight="Bold" FontFamily="Nirmala UI Semilight"/>
+                <TextBlock Text="     Date          Time       Venue             Team 1               Score                   Team 2                    REF" FontSize="22" FontWeight="Bold" FontFamily="Nirmala UI Semilight"/>
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header" Text="           12/8/2018            6:00             Gort              Carnmore    |1-20|    |2-12|    Micheal Cusacks      John O'Grady" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header" Text="  12/7/2017       2:00            Ardrahan          Kilbeacanty       |2-13|   |1-17|             Killimordaly                  Steven Duffy" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header1" Text="           12/8/2018            6:00             Gort              Carnmore    |1-20|    |2-12|    Micheal Cusacks      John O'Grady" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header1" Text=" 12/7/2017        2:00            Castlegar          Clarnbridge       |3-10|   |1-15|             Mullagh                        Declan Smith" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header2" Text="           12/8/2018            6:00             Gort              Carnmore    |1-20|    |2-12|    Micheal Cusacks      John O'Grady" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header2" Text=" 20/7/2017        4:30            Gort                   Loughrea          |1-10|   |2-19|              Gort                              Michael Burke" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header3" Text="           12/8/2018            6:00             Gort              Carnmore    |1-20|    |2-12|    Micheal Cusacks      John O'Grady" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header3" Text=" 20/7/2017        4:30            Mullagh             Killimor             |1-16|   |4-10|              St Thomas                   Chris Lorcan" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header5" Text="           12/8/2018            6:00             Gort              Carnmore    |1-20|    |2-12|    Micheal Cusacks      John O'Grady" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header5" Text=" 28/7/2017        7:00            Carnmore          Sarsfields         |1-10|   |2-13|             Castlegar                      John O'Grady" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
                 <TextBlock Text="" />
-                <TextBlock x:Name="Header6" Text="           12/8/2018            6:00             Gort              Carnmore    |1-20|    |2-12|    Micheal Cusacks      John O'Grady" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
+                <TextBlock x:Name="Header6" Text=" 28/7/2017        7:00            Kilbeacanty       Carnmore         | 1-9  |  |4-17|             Michael Cusacks          Gerry Dolan" FontFamily="Tahoma" FontSize="17" Foreground="DarkBlue" FontWeight="Bold" />
             </StackPanel>
             <StackPanel Grid.Column="1" Background="deepskyblue" VerticalAlignment="Center" Height="420" Margin="0,150">
                 <TextBlock Text="" />
