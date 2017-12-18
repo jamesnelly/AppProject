@@ -55,5 +55,7 @@ namespace AppDevProject
         {
             Frame.Navigate(typeof(ticketPurchase));
         }
+
+       
     }
 }

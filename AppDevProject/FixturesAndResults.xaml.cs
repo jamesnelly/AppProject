@@ -27,44 +27,43 @@ namespace AppDevProject
         {
             this.InitializeComponent();
         }
-
+        //Result button method 
         private void Result_btn_Click(object sender, RoutedEventArgs e)
         {
+            //if statement setup to decide to navigate to which result pages
             if (MainPage.choice2 == 1)
             {
                 Frame.Navigate(typeof(U16Result));
             }
-            if (MainPage.choice2 == 2)
+            else if (MainPage.choice2 == 2)
             {
                 Frame.Navigate(typeof(minorResult));
             }
-            if (MainPage.choice2 == 3)
+            else if (MainPage.choice2 == 3)
             {
                 Frame.Navigate(typeof(U21Result));
             }
-            if (MainPage.choice2 == 4)
+            else if (MainPage.choice2 == 4)
             {
                 Frame.Navigate(typeof(juniorResult));
             }
-            if (MainPage.choice2 == 5)
+            else if (MainPage.choice2 == 5)
             {
                 Frame.Navigate(typeof(interResult));
             }
-            if (MainPage.choice2 == 6)
+            else if (MainPage.choice2 == 6)
             {
                 Frame.Navigate(typeof(seniorResult));
             }
 
         }
-
-
+        //home Button method to link you to go back to main page
         private void Home_btn_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(MainPage));
         }
-
         private void Fixtures_btn_Click(object sender, RoutedEventArgs e)
-        {
+        {     //if statement setup to decide to navigate to which Fixtures pages
             if (MainPage.choice == 1)
             {
                 Frame.Navigate(typeof(U16Fixturs));

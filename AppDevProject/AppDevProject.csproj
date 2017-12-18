@@ -136,6 +136,9 @@
     <Compile Include="ticketPurchase.xaml.cs">
       <DependentUpon>ticketPurchase.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TicketSent.xaml.cs">
+      <DependentUpon>TicketSent.xaml</DependentUpon>
+    </Compile>
     <Compile Include="U16Fixturs.xaml.cs">
       <DependentUpon>U16Fixturs.xaml</DependentUpon>
     </Compile>
@@ -156,8 +159,11 @@
     <None Include="AppDevProject_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\grass.jpg" />
+    <Content Include="Assets\back.scale-400.jpg" />
     <Content Include="Assets\pitch70.jpg" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.jpg" />
+    <Content Include="Assets\Square150x150Logo.scale-200.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -221,6 +227,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ticketPurchase.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TicketSent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

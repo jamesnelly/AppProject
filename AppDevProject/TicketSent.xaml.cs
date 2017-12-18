@@ -20,9 +20,9 @@ namespace AppDevProject
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class SeniorFixturs : Page
+    public sealed partial class TicketSent : Page
     {
-        public SeniorFixturs()
+        public TicketSent()
         {
             this.InitializeComponent();
         }
@@ -31,31 +31,9 @@ namespace AppDevProject
             Frame.Navigate(typeof(MainPage));
         }
 
-        private void Team1_Click(object sender, RoutedEventArgs e)
+        private void button1_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(ticketPurchase));
+            
         }
-
-        private void Team2_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(ticketPurchase));
-        }
-
-        private void Team3_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(ticketPurchase));
-        }
-
-        private void Team4_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(ticketPurchase));
-        }
-
-        private void Team5_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(ticketPurchase));
-        }
-
-
     }
 }

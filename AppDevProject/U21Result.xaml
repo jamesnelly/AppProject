@@ -53,7 +53,7 @@
             </StackPanel>
         </Grid>
         <StackPanel Background="#f39c12" VerticalAlignment="Bottom" Height="150" Margin="0,1">
-            <Button   x:Name="Home_btn" Content="HOME"  Height="96" Margin="480,20,0,0" Width="380" FontSize="36" FontFamily="Castellar" FontWeight="Bold">
+            <Button   x:Name="Home_btn" Content="HOME"  Height="96" Margin="480,20,0,0" Width="380" FontSize="36" FontFamily="Castellar" FontWeight="Bold" Click="Home_btn_Click">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FFD1ACAB"/>

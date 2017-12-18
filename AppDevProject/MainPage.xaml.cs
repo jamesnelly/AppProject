@@ -22,6 +22,7 @@ namespace AppDevProject
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        //global varibles
         static public int choice = 0;
         static public int choice2 = 0;
         public MainPage()
@@ -29,19 +30,21 @@ namespace AppDevProject
             this.InitializeComponent();
         }
 
-     
+         // U16 btton method when clicked two options either results or fixtures
          private void U16_btn_Click(object sender, RoutedEventArgs e)
         {
             choice = 1;
             choice2 = 1;
             Frame.Navigate(typeof(FixturesAndResults));
         }
+        // Minor btton method when clicked two options either results or fixtures
         private void Minor_btn_Click(object sender, RoutedEventArgs e)
         {
             choice = 2;
             choice2 = 2;
             Frame.Navigate(typeof(FixturesAndResults));
         }
+        // U21 btton method when clicked two options either results or fixtures
         private void U21_btn_Click(object sender, RoutedEventArgs e)
         {
 
@@ -49,18 +52,21 @@ namespace AppDevProject
             choice2 = 3;
             Frame.Navigate(typeof(FixturesAndResults));
         }
+        // Junior btton method when clicked two options either results or fixtures
         private void Junior_btn_Click(object sender, RoutedEventArgs e)
         {
             choice = 4;
             choice2 = 4;
             Frame.Navigate(typeof(FixturesAndResults));
         }
+        // Intermediate btton method when clicked two options either results or fixtures
         private void Inter_btn_Click(object sender, RoutedEventArgs e)
         {
             choice = 5;
             choice2 = 5;
             Frame.Navigate(typeof(FixturesAndResults));
         }
+        // senior btton method when clicked two options either results or fixtures
         private void Senior_btn_Click(object sender, RoutedEventArgs e)
         {
             choice = 6;

@@ -56,5 +56,10 @@ namespace AppDevProject
         {
             Frame.Navigate(typeof(ticketPurchase));
         }
+
+        private void Home_btn_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

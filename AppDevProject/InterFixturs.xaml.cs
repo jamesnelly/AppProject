@@ -26,26 +26,26 @@ namespace AppDevProject
         {
             this.InitializeComponent();
         }
+        //home Button method to link you to go back to main page
         private void Home_btn_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(MainPage));
         }
-
+        // Button method to link you to navigate to the ticket purchase page
         private void Team1_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ticketPurchase));
         }
-
+        // Button method to link you to navigate to the ticket purchase page
         private void Team2_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ticketPurchase));
         }
-
         private void Team3_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ticketPurchase));
         }
-
+     
         private void Team4_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ticketPurchase));

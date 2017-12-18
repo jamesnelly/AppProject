@@ -6,13 +6,18 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <!-- first setup page in Grid  -->
     <Grid>
+        <!-- StackPanel for the first section  -->
         <StackPanel Background="#3498db" Height="150" VerticalAlignment="Top">
             <TextBlock FontFamily="Rockwell Extra Bold" FontSize="50" FontWeight="Bold" TextAlignment="Center" LineHeight="48" Margin="45">
                 <Run Text="Hurling Fixtures and Results"/>
             </TextBlock>
         </StackPanel>
+        <!--  Grid setup for the the three buttons each side of the page -->
+        <!-- first setup page in Grid  -->
         <Grid>
+            <!-- both given given same height both different width  -->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="5*"/>
                 <ColumnDefinition Width="5*"/>
@@ -20,17 +25,20 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="20*"/>
             </Grid.RowDefinitions>
+            <!-- first column in the Grid layed 3 buttons on the left -->
             <StackPanel Grid.Column="0" Background="White" VerticalAlignment="Center" Height="420" Margin="0,150">
                 <Button x:Name="U16_btn" Content="Under 16" HorizontalAlignment="Left" Height="90" Margin="100,47,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="U16_btn_Click" Background="#f1c40f" Foreground="black"/>
                 <Button x:Name="Minor_btn" Content="Minor" HorizontalAlignment="Left" Height="90" Margin="100,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Minor_btn_Click" Background="#f1c40f" Foreground="black"/>
                 <Button x:Name="U21_btn" Content="Under 21" HorizontalAlignment="Left" Height="90" Margin="100,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="U21_btn_Click" Background="#f1c40f" Foreground="black"/>
             </StackPanel>
+            <!-- first column in the Grid layed 3 buttons on the Right -->
             <StackPanel Grid.Column="1" Background="White" VerticalAlignment="Center" Height="420" Margin="0,150">
                 <Button x:Name="Junior_btn" Content="Junior" HorizontalAlignment="Left" Height="90" Margin="250,47,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Junior_btn_Click" Background="#f1c40f" Foreground="black"/>
                 <Button x:Name="Inter_btn" Content="Intermediate" HorizontalAlignment="Left" Height="90" Margin="250,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Inter_btn_Click" Background="#f1c40f" Foreground="black"/>
                 <Button x:Name="Senior_btn" Content="Senior" HorizontalAlignment="Left" Height="90" Margin="250,20,0,0" Width="300" VerticalAlignment="Top" FontSize="36" FontFamily="Arial" FontWeight="Bold" Click="Senior_btn_Click" Background="#f1c40f" Foreground="black"/>
             </StackPanel>
         </Grid>
+        <!-- Last StackPanel setup for the bottom section for home Button  -->
         <StackPanel Background="#3498db " VerticalAlignment="Bottom" Height="150" Margin="0,1">
             <Button   x:Name="Home_btn" Content="HOME"  Height="96" Margin="480,20,0,0" Width="380" FontSize="36" FontFamily="Castellar" FontWeight="Bold">
                 <Button.Background>

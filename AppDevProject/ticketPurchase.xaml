@@ -20,23 +20,46 @@
             <TextBlock Text="Please Enter Your Deatils " FontSize="35" FontWeight="Bold" HorizontalAlignment="Center" />
             <TextBox x:Name="Name" HorizontalAlignment="Center" Height="15" Margin="10,20,0,0" TextWrapping="Wrap" Text="Enter full Name" Width="348"/>
             <TextBox x:Name="Email" HorizontalAlignment="Center" Height="15" Margin="10,20,0,0" TextWrapping="Wrap" Text="Enter Email" Width="348"/>
-            <TextBox x:Name="MoNumber" HorizontalAlignment="Center" Height="15" Margin="10,20,0,0" TextWrapping="Wrap" Text="Enter mobile Number" Width="348"/>
             <TextBox x:Name="Address" HorizontalAlignment="Center" Height="15" Margin="10,20,0,0" TextWrapping="Wrap" Text="Enter Address" Width="348"/>
-            <Button HorizontalAlignment="Center" Content="Quantity of tickets" Height="60 " Width="150" Margin="0,20,0,0">
-                <Button.Background>
-                    <SolidColorBrush Color="Gray"/>
-                </Button.Background>
-                <Button.Flyout>
-                    <MenuFlyout>
-                        <MenuFlyoutItem Width="150" Text="1"/>
-                        <MenuFlyoutItem Width="150" Text="2"/>
-                        <MenuFlyoutItem Width="150" Text="3"/>
-                        <MenuFlyoutItem Width="150" Text="4"/>
-                        <MenuFlyoutItem Width="150" Text="5"/>
-                        <MenuFlyoutItem Width="150" Text="6"/>
-                    </MenuFlyout>
-                </Button.Flyout>
-            </Button>
+            <TextBlock Text="" />
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Column="0" Background="AliceBlue" VerticalAlignment="Center" Height="105" Margin="0,0,0,100">
+                    <Button x:Name="Tickets" HorizontalAlignment="Left" Content="Quantity of tickets" Height="40 " Width="170" Margin="250,15,0,0">
+                        <Button.Background>
+                            <SolidColorBrush Color="Green"/>
+                        </Button.Background>
+                        <Button.Flyout>
+                            <MenuFlyout>
+                                <MenuFlyoutItem Width="150" Text="1"/>
+                                <MenuFlyoutItem Width="150" Text="2"/>
+                                <MenuFlyoutItem Width="150" Text="3"/>
+                                <MenuFlyoutItem Width="150" Text="4"/>
+                                <MenuFlyoutItem Width="150" Text="5"/>
+                                <MenuFlyoutItem Width="150" Text="6"/>
+                            </MenuFlyout>
+                        </Button.Flyout>
+                    </Button>
+                </StackPanel>
+
+
+                <StackPanel Grid.Column="1" Background="AliceBlue" VerticalAlignment="Center" Height="105" Margin="0,0,0,100">
+                    <Button x:Name="Submit" HorizontalAlignment="Left" Content="Submit for tickets" Height="40 " Width="170" Margin="250,15,0,0" Click="Submit_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="Gray"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+
 
 
         </StackPanel>
