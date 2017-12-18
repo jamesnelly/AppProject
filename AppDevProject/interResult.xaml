@@ -45,11 +45,11 @@
                 <TextBlock Text="" />
                 <TextBlock Text="" />
                 <TextBlock Text="Inter Teams " FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" />
-                <Button x:Name="Team1" Content="Gort" HorizontalAlignment="Left" Height="40" Margin="60,10,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold"  FontFamily="Castellar" FontWeight="Bold" Click="Team1_Click"/>
-                <Button x:Name="Team2" Content="Michael Cusacks" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold"  FontFamily="Castellar" FontWeight="Bold" Click="Team2_Click"/>
-                <Button x:Name="Team3" Content="Carnmore" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold" FontFamily="Castellar" FontWeight="Bold" Click="Team3_Click"/>
-                <Button x:Name="Team4" Content="ardrahan" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold" FontFamily="Castellar" FontWeight="Bold" Click="Team4_Click"/>
-                <Button x:Name="Team5" Content="kinvara" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold" FontFamily="Castellar" FontWeight="Bold" Click="Team5_Click"/>
+                <Button x:Name="Team1" Content="Gort" HorizontalAlignment="Left" Height="40" Margin="60,10,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold"  FontFamily="Tahoma" FontWeight="Bold" Click="Team1_Click"/>
+                <Button x:Name="Team2" Content="Michael Cusacks" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold"  FontFamily="Tahoma" FontWeight="Bold" Click="Team2_Click"/>
+                <Button x:Name="Team3" Content="Carnmore" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold" FontFamily="Tahoma" FontWeight="Bold" Click="Team3_Click"/>
+                <Button x:Name="Team4" Content="Ardrahan" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold" FontFamily="Tahoma" FontWeight="Bold" Click="Team4_Click"/>
+                <Button x:Name="Team5" Content="Kinvara" HorizontalAlignment="Left" Height="40" Margin="60,20,0,0" Width="140" VerticalAlignment="Top" FontSize="11" Background="Gold" FontFamily="Tahoma" FontWeight="Bold" Click="Team5_Click"/>
             </StackPanel>
         </Grid>
         <StackPanel Background="#FF981B4C" VerticalAlignment="Bottom" Height="150" Margin="0,1">
