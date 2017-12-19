@@ -20,7 +20,7 @@
             <TextBlock Text="Congradulations" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold"/>
             <TextBlock x:Name="space"/>
             <TextBlock x:Name="space2"/>
-            <TextBlock Text="Your ticket has been sent to you Email" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold"/>
+            <TextBlock Text="Your ticket has been sent to your Email" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold"/>
         </StackPanel>
                 <StackPanel Background="CadetBlue" VerticalAlignment="Bottom" Height="150" Margin="0,1">
             <Button x:Name="Home_btn" Content="HOME" HorizontalAlignment="Left" Height="96" Margin="480,20,0,0" Width="380" VerticalAlignment="Top" FontSize="36" FontFamily="Castellar" FontWeight="Bold" Click="Home_btn_Click"/>

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="19ecd9e2-7f15-4ba1-956c-f4aaa1daad87" Publisher="CN=james" Version="1.0.0.0" />
+  <Identity Name="57463JamesNelly.HurlingFixRes" Publisher="CN=F7BB8C0D-7C69-4EB5-BC51-63EDC4342AB2" Version="1.1.1.0" />
   <mp:PhoneIdentity PhoneProductId="19ecd9e2-7f15-4ba1-956c-f4aaa1daad87" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>AppDevProject</DisplayName>
-    <PublisherDisplayName>james</PublisherDisplayName>
+    <DisplayName>Hurling Fix Res</DisplayName>
+    <PublisherDisplayName>James Nelly</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="AppDevProject.App">
-      <uap:VisualElements DisplayName="AppDevProject" Square150x150Logo="Assets\Square150x150Logo.jpg" Square44x44Logo="Assets\Square44x44Logo.png" Description="AppDevProject" BackgroundColor="transparent">
+      <uap:VisualElements DisplayName="Hurling Fix Res" Square150x150Logo="Assets\Square150x150Logo.jpg" Square44x44Logo="Assets\Square44x44Logo.png" Description="AppDevProject" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
